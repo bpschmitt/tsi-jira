@@ -1,0 +1,12 @@
+{
+  "server" : "https://truesight.atlassian.net",
+  "username" : "somemail@gmail.com",
+  "password" : "mypassword",
+  "source" : {"ref": "Jira", "type": "Application", "name": "Jira"},
+  "sender" : {"ref": "Jira", "type": "Application", "name": "Jira"},
+  "headers": {"Content-type": "application/json"},
+  "tsiemail" : "someemail@gmail.com",
+  "tsiapikey": "apikeygoeshere",
+  "url": "https://api.truesight.bmc.com/v1/events",
+  "chunksize": 100
+}
